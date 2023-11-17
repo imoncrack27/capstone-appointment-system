@@ -1,0 +1,61 @@
+{
+  "name": "easyappointments",
+  "description": "Open Source Web Scheduler",
+  "homepage": "https://easyappointments.org",
+  "author": "A.Tselegidis <alextselegidis@gmail.com>",
+  "license": "GPL-3.0",
+  "keywords": [
+    "calendar",
+    "scheduler",
+    "appointments",
+    "events",
+    "dates",
+    "google",
+    "services"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alextselegidis/easyappointments.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alextselegidis/easyappointments/issues"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "bootstrap": "^4.5.3",
+    "cookieconsent": "^3.1.1",
+    "datejs": "0.0.2",
+    "del": "^6.0.0",
+    "fullcalendar": "^3.10.2",
+    "jquery": "^3.5.1",
+    "jquery-ui": "^1.12.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.31",
+    "tippy.js": "^6.2.7",
+    "trumbowyg": "^2.21.0"
+  },
+  "devDependencies": {
+    "fs-extra": "^0.26.7",
+    "gulp": "^4.0.2",
+    "gulp-changed": "^3.2.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-debug": "^4.0.0",
+    "gulp-load-plugins": "^1.6.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "jsdoc": "^3.6.6",
+    "node-notifier": "^8.0.1",
+    "plato": "^1.7.0",
+    "zip-dir": "^1.0.2"
+  },
+  "scripts": {
+    "start": "npx gulp",
+    "build": "npx gulp build",
+    "docs": "npx gulp docs"
+  }
+}

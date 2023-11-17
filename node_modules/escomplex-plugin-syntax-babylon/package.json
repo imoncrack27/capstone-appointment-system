@@ -1,0 +1,58 @@
+{
+  "name": "escomplex-plugin-syntax-babylon",
+  "version": "0.0.10",
+  "homepage": "https://github.com/typhonjs-node-escomplex/escomplex-plugin-syntax-babylon/",
+  "description": "Provides a plugin for typhonjs-escomplex module processing which loads syntax definitions for trait resolution for Babylon AST.",
+  "license": "MPL-2.0",
+  "main": "./dist/PluginSyntaxBabylon",
+  "author": {
+    "name": "Mike Leahy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typhonjs-node-escomplex/escomplex-plugin-syntax-babylon.git"
+  },
+  "maintainers": [
+    {
+      "name": "Mike Leahy",
+      "email": "support@typhonjs.io",
+      "url": "https://github.com/typhonrt"
+    }
+  ],
+  "dependencies": {
+    "escomplex-plugin-syntax-estree": "^0.0.10",
+    "typhonjs-escomplex-commons": "^0.0.14"
+  },
+  "devDependencies": {
+    "sort-object": "^3.0.0",
+    "typhonjs-ast-walker": "^0.1.0",
+    "typhonjs-config-eslint": "^0.4.0",
+    "typhonjs-npm-build-test": "^0.3.0"
+  },
+  "scripts": {
+    "build": "babel-node ./node_modules/typhonjs-npm-scripts-build-babel/scripts/build.js",
+    "esdoc": "esdoc -c .esdocrc",
+    "eslint": "eslint .",
+    "prepublish": "babel-node ./node_modules/typhonjs-npm-scripts-publish/scripts/prepublish.js",
+    "test": "babel-node ./node_modules/typhonjs-npm-scripts-test-mocha/scripts/mocha.js",
+    "test-coverage": "babel-node ./node_modules/typhonjs-npm-scripts-test-mocha/scripts/mocha-istanbul.js"
+  },
+  "keywords": [
+    "typhonjs",
+    "escomplex",
+    "plugin",
+    "syntax",
+    "definitions",
+    "babylon"
+  ],
+  "files": [
+    "dist",
+    "src",
+    ".esdocrc",
+    "AUTHORS.md"
+  ],
+  "directories": {},
+  "bugs": {
+    "url": "https://github.com/typhonjs-node-escomplex/escomplex-plugin-syntax-babylon/issues"
+  }
+}
