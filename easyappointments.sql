@@ -284,7 +284,7 @@ CREATE TABLE `ea_user_settings` (
 --
 
 INSERT INTO `ea_user_settings` (`id_users`, `username`, `password`, `salt`, `working_plan`, `working_plan_exceptions`, `notifications`, `google_sync`, `google_token`, `google_calendar`, `sync_past_days`, `sync_future_days`, `calendar_view`) VALUES
-(1, 'chrysippus2497', 'c117ba2f1bda277bcb866f573e151e382cd1608b4749431cf2d02efc042840d8', 'eeeab3df06153548a8e167af604838a924bd6d69fcab8a7c093c788de17f3953', NULL, NULL, 1, NULL, NULL, NULL, 30, 90, 'default'),
+(1, 'bossingtest', 'c117ba2f1bda277bcb866f573e151e382cd1608b4749431cf2d02efc042840d8', 'eeeab3df06153548a8e167af604838a924bd6d69fcab8a7c093c788de17f3953', NULL, NULL, 1, NULL, NULL, NULL, 30, 90, 'default'),
 (2, 'janedoe', '8a1e1433c4ab904b52869b601ad193ec6feced28b561aceff8f3b11f35151e68', '0adbe47315759f79245a39bc4a8bd6e4ec7f11a1445f561edf4bf96ca3e9a3ca', '{\"monday\":{\"start\":\"09:00\",\"end\":\"18:00\",\"breaks\":[{\"start\":\"14:30\",\"end\":\"15:00\"}]},\"tuesday\":{\"start\":\"09:00\",\"end\":\"18:00\",\"breaks\":[{\"start\":\"14:30\",\"end\":\"15:00\"}]},\"wednesday\":{\"start\":\"09:00\",\"end\":\"18:00\",\"breaks\":[{\"start\":\"14:30\",\"end\":\"15:00\"}]},\"thursday\":{\"start\":\"09:00\",\"end\":\"18:00\",\"breaks\":[{\"start\":\"14:30\",\"end\":\"15:00\"}]},\"friday\":{\"start\":\"09:00\",\"end\":\"18:00\",\"breaks\":[{\"start\":\"14:30\",\"end\":\"15:00\"}]},\"saturday\":{\"start\":\"09:00\",\"end\":\"18:00\",\"breaks\":[{\"start\":\"14:30\",\"end\":\"15:00\"}]},\"sunday\":{\"start\":\"09:00\",\"end\":\"18:00\",\"breaks\":[{\"start\":\"14:30\",\"end\":\"15:00\"}]}}', NULL, 1, 0, NULL, NULL, 30, 90, 'default');
 
 --
