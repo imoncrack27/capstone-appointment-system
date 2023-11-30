@@ -215,7 +215,7 @@ CREATE TABLE `ea_users` (
   `dateOfBirth` varchar(255) DEFAULT NULL,
   `motherMaidenName` varchar(255) DEFAULT NULL,
   `programGraduatedEnrolled` varchar(255) DEFAULT NULL,
-  `yearGraduate` varchar(255)  NULL,
+  `yearGraduate` varchar(255)  DEFAULT NULL,
   `nameOfSchool` varchar(255) DEFAULT NULL,
   `document_requested` varchar(255) NOT NULL,
   `uploaded_valid_id` varchar(255) NOT NULL,

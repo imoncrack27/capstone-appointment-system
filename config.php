@@ -1,29 +1,4 @@
 <?php
-/* ----------------------------------------------------------------------------
- * Easy!Appointments - Open Source Web Scheduler
- *
- * @package     EasyAppointments
- * @author      A.Tselegidis <alextselegidis@gmail.com>
- * @copyright   Copyright (c) 2013 - 2020, Alex Tselegidis
- * @license     http://opensource.org/licenses/GPL-3.0 - GPLv3
- * @link        http://easyappointments.org
- * @since       v1.0.0
- * ---------------------------------------------------------------------------- */
-
-/**
- * Configuration File
- *
- * Set your installation BASE_URL * without the trailing slash * and the database
- * credentials in order to connect to the database. You can enable the DEBUG_MODE
- * while developing the application.
- *
- * Set the default language by changing the LANGUAGE constant. For a full list of
- * available languages look at the /application/config/config.php file.
- *
- * IMPORTANT:
- * If you are updating from version 1.0 you will have to create a new "config.php"
- * file because the old "configuration.php" is not used anymore.
- */
 class Config
 {
 
@@ -31,7 +6,7 @@ class Config
     // GENERAL SETTINGS
     // ------------------------------------------------------------------------
 
-    const BASE_URL      = 'http://localhost/easyappointment';
+    const BASE_URL      = 'http://localhost/appointment-system';
     const LANGUAGE      = 'english';
     const DEBUG_MODE    = TRUE;
 
@@ -40,7 +15,7 @@ class Config
     // ------------------------------------------------------------------------
 
     const DB_HOST       = 'localhost';
-    const DB_NAME       = 'easyappointment';
+    const DB_NAME       = 'appointment-system';
     const DB_USERNAME   = 'root';
     const DB_PASSWORD   = '';
 
@@ -55,5 +30,3 @@ class Config
     const GOOGLE_API_KEY        = '';
 }
 
-/* End of file config.php */
-/* Location: ./config.php */
