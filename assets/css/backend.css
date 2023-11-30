@@ -1,16 +1,5 @@
-/* ----------------------------------------------------------------------------
- * Easy!Appointments - Open Source Web Scheduler
- *
- * @package     EasyAppointments
- * @author      A.Tselegidis <alextselegidis@gmail.com>
- * @copyright   Copyright (c) 2013 - 2020, Alex Tselegidis
- * @license     http://opensource.org/licenses/GPL-3.0 - GPLv3
- * @link        http://easyappointments.org
- * @since       v1.0.0
- * ---------------------------------------------------------------------------- */
-
 /**
- * BACKEND CSS FILE FOR EASY!APPOINTMENTS
+ * BACKEND CSS FILE FOR Appointment System
  */
 
 root {
@@ -74,8 +63,8 @@ root {
 }
 
 #footer {
-    background-color: #F7F7F7;
-    border-top: 1px solid #DDD;
+    background-color: #f7f7f7;
+    border-top: 1px solid #ddd;
     font-size: 11px;
     overflow: auto;
 }
@@ -104,7 +93,7 @@ root {
 #notification .alert {
     margin-bottom: 0;
     background-color: #f5e8a8;
-    color: #9E9980;
+    color: #9e9980;
     box-shadow: 1px 1px 1px #a0a0a0;
     padding: 15px;
     position: fixed;
@@ -116,7 +105,7 @@ root {
 }
 
 #notification .close {
-    color: #9E9980;
+    color: #9e9980;
     font-size: 25px;
     line-height: 0.8;
     margin-right: 0 !important;
@@ -152,7 +141,7 @@ body .modal-header {
 }
 
 body .modal-header h3 {
-    color: #FFF;
+    color: #fff;
     font-size: 20px;
     font-weight: lighter;
 }
@@ -196,11 +185,11 @@ body .modal.full-screen .modal-push {
 }
 
 body .jspDrag {
-    background: #D3D3D3;
+    background: #d3d3d3;
 }
 
 body .jspTrack {
-    background: #EBEBEB;
+    background: #ebebeb;
 }
 
 body legend {
@@ -249,12 +238,12 @@ body legend {
 }
 
 .backend-page .filter-records .results .entry:hover:not(.selected) {
-    background-color: #F3F3F3;
+    background-color: #f3f3f3;
     cursor: pointer;
 }
 
 .backend-page .filter-records .results .entry.selected {
-    background-color: #F4F4F4;
+    background-color: #f4f4f4;
     border-right: 5px solid #429a82;
 }
 
@@ -286,7 +275,6 @@ body legend {
     }
 }
 
-
 /* BACKEND CALENDAR PAGE
    -------------------------------------------------------------------- */
 
@@ -307,7 +295,7 @@ body legend {
 }
 
 #calendar-page #calendar-filter .form-control {
-    background-color: #FFF;
+    background-color: #fff;
     padding: 0 10px;
     background-position-x: 95%;
     margin-bottom: 10px;
@@ -353,7 +341,7 @@ body legend {
 
 #calendar-page #calendar .fc-toolbar.fc-header-toolbar h2 {
     font-size: 22px;
-    display: block
+    display: block;
 }
 
 #calendar-page #calendar .fc-toolbar.fc-header-toolbar .fc-center {
@@ -361,12 +349,12 @@ body legend {
 }
 
 #calendar-page #calendar .fc-unavailable {
-    background-image: url('../img/unavailable.jpg');
+    background-image: url("../img/unavailable.jpg");
     font-size: 14px;
     border-radius: 0;
     font-weight: bold;
     color: #333;
-    text-shadow: 0 1px 0 #E6E6E6;
+    text-shadow: 0 1px 0 #e6e6e6;
     opacity: 0.7;
 }
 
@@ -380,11 +368,11 @@ body legend {
 }
 
 #calendar-page #calendar .fc-break {
-    background-image: url('../img/break.jpg');
+    background-image: url("../img/break.jpg");
 }
 
 #calendar-page #calendar .fc-custom {
-    background-image: url('../img/custom.jpg');
+    background-image: url("../img/custom.jpg");
 }
 
 #calendar-page .fc-header {
@@ -392,7 +380,7 @@ body legend {
 }
 
 #calendar .fc-time-grid-event.fc-short .fc-title {
-    font-size: .7em;
+    font-size: 0.7em;
 }
 
 #calendar .fc-header-title h2 {
@@ -415,7 +403,7 @@ body legend {
 }
 
 #calendar table thead .fc-first {
-    background: #F5F5F5;
+    background: #f5f5f5;
 }
 
 #calendar table thead .fc-first th {
@@ -425,9 +413,9 @@ body legend {
 }
 
 #calendar .fc-event {
-    border: 1px solid #4790CA;
-    background-color: #4790CA;
-    min-height: 12px; 
+    border: 1px solid #4790ca;
+    background-color: #4790ca;
+    min-height: 12px;
 }
 
 #existing-customers-list {
@@ -449,7 +437,7 @@ body legend {
 #existing-customers-list div:hover {
     background: #429a82;
     font-weight: bold;
-    color: #FFF;
+    color: #fff;
     cursor: pointer;
 }
 
@@ -492,17 +480,25 @@ body .form-horizontal .controls {
     display: block;
 }
 
-#calendar .calendar-header .select2-container--default .select2-selection--multiple {
+#calendar
+    .calendar-header
+    .select2-container--default
+    .select2-selection--multiple {
     height: 38px;
 }
 
-#calendar .select2-container--default.select2-container--focus .select2-selection--multiple {
+#calendar
+    .select2-container--default.select2-container--focus
+    .select2-selection--multiple {
     border-color: #80bdff;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
-#calendar .select2-container--default .select2-selection--multiple .select2-selection__choice {
+#calendar
+    .select2-container--default
+    .select2-selection--multiple
+    .select2-selection__choice {
     background-color: #f8f9fa;
     border: 1px solid #ced4da;
 }
@@ -524,7 +520,7 @@ body .form-horizontal .controls {
 }
 
 #calendar .fc-unavailable {
-    background: #eaeaea url('../img/unavailable.jpg');
+    background: #eaeaea url("../img/unavailable.jpg");
 }
 
 #calendar .calendar-view .date-column .provider-column {
@@ -535,7 +531,7 @@ body .form-horizontal .controls {
 }
 
 #calendar .calendar-view .date-column .provider-column table thead {
-    background-color: #FFF;
+    background-color: #fff;
 }
 
 #calendar .calendar-view .date-column .provider-column .event {
@@ -547,14 +543,13 @@ body .form-horizontal .controls {
 }
 
 #calendar .calendar-view .date-column .provider-column .event.appointment {
-    background: #4790CA;
+    background: #4790ca;
     color: #fff;
 }
 
 #calendar .calendar-view .date-column .provider-column .event.unavailability {
     background: #409482;
     color: #fff;
-
 }
 
 @media (min-width: 768px) {
@@ -609,7 +604,6 @@ body .form-horizontal .controls {
     }
 }
 
-
 /* BACKEND CUSTOMERS PAGE
    -------------------------------------------------------------------- */
 
@@ -626,14 +620,13 @@ body .form-horizontal .controls {
 
 #customers-page #customer-appointments .appointment-row {
     padding: 7px;
-    border-bottom: 1px solid #E2E2E2;
+    border-bottom: 1px solid #e2e2e2;
     border-right: none;
 }
 
 #customers-page #customer-appointments .appointment-row:last-child {
     border-bottom: none;
 }
-
 
 /* BACKEND SERVICES PAGE
    -------------------------------------------------------------------- */
@@ -643,7 +636,7 @@ body .form-horizontal .controls {
 }
 
 #services-page .nav {
-    background-color: #F4F4F4;
+    background-color: #f4f4f4;
     margin-bottom: 15px;
 }
 
@@ -672,7 +665,7 @@ body .form-horizontal .controls {
 }
 
 #users-page .nav {
-    background-color: #F4F4F4;
+    background-color: #f4f4f4;
     margin-bottom: 15px;
 }
 
@@ -683,7 +676,7 @@ body .form-horizontal .controls {
 #users-page #secretary-notifications.active,
 #users-page #provider-notifications.active,
 #users-page #admin-notifications.active {
-    background: #B6DCFF;
+    background: #b6dcff;
     box-shadow: none;
 }
 
@@ -779,7 +772,7 @@ body .form-horizontal .controls {
 }
 
 #settings-page .nav {
-    background-color: #F4F4F4;
+    background-color: #f4f4f4;
     margin-bottom: 15px;
 }
 
@@ -839,7 +832,7 @@ body .form-horizontal .controls {
 #settings-page #display-any-provider.active,
 #settings-page #require-phone-number.active,
 #settings-page #require-captcha.active {
-    background: #B6DCFF;
+    background: #b6dcff;
 }
 
 #settings-page #general fieldset .wrapper {
@@ -870,7 +863,7 @@ body .form-horizontal .controls {
 
 #settings-page #about .current-version {
     padding: 15px;
-    background: #F4F4F4;
+    background: #f4f4f4;
     font-size: 12px;
     color: #444;
 }
