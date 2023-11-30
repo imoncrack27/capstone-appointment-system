@@ -11,7 +11,7 @@
  * ---------------------------------------------------------------------------- */
 
 /**
- * Easy!Appointments Configuration File
+ * Configuration File
  *
  * Set your installation BASE_URL * without the trailing slash * and the database
  * credentials in order to connect to the database. You can enable the DEBUG_MODE
@@ -40,7 +40,7 @@ class Config
     // ------------------------------------------------------------------------
 
     const DB_HOST       = 'localhost';
-    const DB_NAME       = 'easyappointments';
+    const DB_NAME       = 'easyappointment';
     const DB_USERNAME   = 'root';
     const DB_PASSWORD   = '';
 

@@ -2,11 +2,10 @@
 
 /*
 |--------------------------------------------------------------------------
-| Easy!Appointments - Internal Configuration
+| 
 |--------------------------------------------------------------------------
 |
-| Declare some of the global config values of Easy!Appointments.
-|
+| 
 */
 $config['version'] = '1.4.3'; // This must be changed manually.
 $config['release_label'] = ''; // Leave empty for no title or add Alpha, Beta etc ...

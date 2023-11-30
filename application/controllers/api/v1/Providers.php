@@ -1,15 +1,6 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed');
 
-/* ----------------------------------------------------------------------------
- * Easy!Appointments - Open Source Web Scheduler
- *
- * @package     EasyAppointments
- * @author      A.Tselegidis <alextselegidis@gmail.com>
- * @copyright   Copyright (c) 2013 - 2020, Alex Tselegidis
- * @license     https://opensource.org/licenses/GPL-3.0 - GPLv3
- * @link        https://easyappointments.org
- * @since       v1.2.0
- * ---------------------------------------------------------------------------- */
+
 
 require_once __DIR__ . '/API_V1_Controller.php';
 

@@ -236,11 +236,11 @@ CREATE TABLE `ea_users` (
   `zip_code` varchar(64) DEFAULT NULL,
   `notes` text DEFAULT NULL,
   `timezone` varchar(256) DEFAULT 'UTC',
-  `dateOfBirth` varchar(255) NOT NULL,
-  `motherMaidenName` varchar(255) NOT NULL,
-  `programGraduatedEnrolled` varchar(255) NOT NULL,
-  `yearGraduate` varchar(255) NOT NULL,
-  `nameOfSchool` varchar(255) NOT NULL,
+  `dateOfBirth` varchar(255) DEFAULT NULL,
+  `motherMaidenName` varchar(255) DEFAULT NULL,
+  `programGraduatedEnrolled` varchar(255) DEFAULT NULL,
+  `yearGraduate` varchar(255)  NULL,
+  `nameOfSchool` varchar(255) DEFAULT NULL,
   `document_requested` varchar(255) NOT NULL,
   `uploaded_valid_id` varchar(255) NOT NULL,
   `language` varchar(256) DEFAULT 'english',
@@ -452,3 +452,4 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+easyappointment2
