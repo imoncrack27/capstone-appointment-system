@@ -464,16 +464,14 @@
                             <div class="form-group">
                                 <label for="mother-maiden-name" class="control-label">
                                     Mother's Maiden Name
-                                    <span class="text-danger">*</span>
                                 </label>
-                                <input type="text" id="mother-maiden-name" class="required form-control" maxlength="120"/>
+                                <input type="text" id="mother-maiden-name" class="form-control" maxlength="120"/>
                             </div>
                             <div class="form-group" style="margin-top: 39px;">
                                 <label for="program-graduated-enrolled" class="control-label">
                                     Program Graduated/Enrolled
-                                    <span class="text-danger">*</span>
                                 </label>
-                                <input type="text" id="program-graduated-enrolled" class="required form-control" maxlength="120"/>
+                                <input type="text" id="program-graduated-enrolled" class="form-control" maxlength="120"/>
                             </div>
                         </div>
 
@@ -481,9 +479,8 @@
                             <div class="form-group">
                                 <label for="year-graduate" class="control-label">
                                     Year Graduated
-                                    <span class="text-danger">*</span>
                                 </label>
-                                <input type="text" id="year-graduate" class="required form-control" minlength="4" maxlength="4" oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+                                <input type="text" id="year-graduate" class="form-control" minlength="4" maxlength="4" oninput="this.value = this.value.replace(/[^0-9]/g, '');">
                             </div>
 
                             <div class="form-group">
@@ -494,7 +491,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="valid-id" class="control-label">
-                                    Picture copy of your student ID or any valid ID (Back to back)
+                                    Picture copy of your student ID or any valid ID (Back to back) and 2x2 picture
                                     <span class="text-danger">*</span>
                                 </label>
                                 <input type="file" id="valid-id fileInput" name="fileInput[]" class="required form-control valid-id-fileInput" accept=".png, .jpg, .jpeg" multiple/>
